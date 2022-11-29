@@ -34,7 +34,7 @@ window.addEventListener("keydown", (event) => {
         if(character.classList.contains(direction)) character.classList.remove(direction);
     })
     
-    if (((0 <= xPosition) && (xPosition <= SCREEN_WIDTH)) && ((0 <= yPosition) && (yPosition <= SCREEN_HEIGHT))) {
+    if (((0 <= xPosition) && (xPosition <= SCREEN_WIDTH - 80)) && ((0 <= yPosition) && (yPosition <= SCREEN_HEIGHT - 170))) {
 
         collisionAlert = false;
         gameBackgroundText.innerText = '';
@@ -73,16 +73,16 @@ window.addEventListener("keydown", (event) => {
             xPosition = 0;
         }
 
-        if (xPosition > SCREEN_WIDTH) {
-            xPosition = SCREEN_WIDTH;
+        if (xPosition > SCREEN_WIDTH - 80) {
+            xPosition = SCREEN_WIDTH - 80;
         }
 
         if (yPosition < 0) {
             yPosition = 0;
         }
 
-        if (yPosition > SCREEN_HEIGHT) {
-            yPosition = SCREEN_HEIGHT;
+        if (yPosition > SCREEN_HEIGHT - 170) {
+            yPosition = SCREEN_HEIGHT - 170;
         }
     }
 
