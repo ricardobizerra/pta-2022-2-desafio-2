@@ -16,10 +16,18 @@ body .game-background {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
 }
 
-body .game-background img {
-    margin-top: 40px;
+body .game-background p {
+    background-color: #008015;
+    color: #ffffff;
+
+    padding: 16px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 
 body .container-character {
