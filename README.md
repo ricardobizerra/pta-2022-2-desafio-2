@@ -1,5 +1,7 @@
 # Desafio Javascript
 
+Desafio proposto a partir [deste repositório](https://github.com/fernandesbarreto/pta-desafio-javascript), como parte do PTA 2022.2
+
 ## PTA
 
 
